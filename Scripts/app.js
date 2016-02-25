@@ -76,7 +76,7 @@ function ContactMetoConsole() {
 		email = document.getElementById("email");
 		comments = document.getElementById("comments");
 		
-		console.log(firstName.val, lastName.val, email.val, comments.val);
+		console.log(firstName + lastName + email.val + comments);
 
 }
 
