@@ -82,7 +82,7 @@ function ContactMetoConsole() {
 			
 			console.log(firstName.value + lastName.value + email.value + comments.value);
 			
-		}
+		});
 		
 
 }
