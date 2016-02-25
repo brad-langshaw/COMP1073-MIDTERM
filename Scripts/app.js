@@ -76,7 +76,14 @@ function ContactMetoConsole() {
 		email = document.getElementById("email");
 		comments = document.getElementById("comments");
 		
-		console.log(firstName + lastName + email.val + comments);
+		document.querySelector('form.pure-form').addEventListener('submit', function (e)	{
+			
+			e.preventDefault();
+			
+			console.log(firstName.value + lastName.value + email.value + comments.value);
+			
+		}
+		
 
 }
 
